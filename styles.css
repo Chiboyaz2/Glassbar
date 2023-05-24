@@ -119,6 +119,15 @@ button i{
     
 }
 
+.menu-button {
+    transition: transform .4s ease;
+}
+
+.menu-button.open {
+    transform: rotate(180deg);
+}
+
+
 nav .list li.active i {
     background: none;
     -webkit-background-clip: unset;
