@@ -54,6 +54,12 @@ nav .brand img {
     width: 65px;
     border-radius: 50%;
     border: 4px solid rgba(230, 235, 240, .8);
+    cursor: pointer;
+}
+
+nav .brand img:hover{
+    /* transform: translateY(10px); */
+    transform: scale(1.1);
 }
 
 nav .brand p {
